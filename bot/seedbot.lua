@@ -230,27 +230,18 @@ function create_config( )
     },
     sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v4
+    about_text = [[.::::A H D::::. v4
 An advanced administration bot based on TG-CLI written in Lua
 
-https://github.com/SEEDTEAM/TeleSeed
-
 Admins
-@Empero [Founder]
-@imandaneshi [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
+@ashi_king_kaboos [Founder]
+@apirjahan [Developer]
 
 Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+abol dalton
 
 Our channels
-@teleseedch [English]
-@iranseed [persian]
+@THE_A_H_D [persian]
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -328,12 +319,8 @@ This command will send text to [group_id]
 **You can use "#", "!", or "/" to begin all commands
 
 
-*Only admins and sudo can add bots in group
+.::SUDO USER::. @ASHI_KING_KABOOS
 
-
-*Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
 Commands list :
@@ -458,10 +445,7 @@ will return group ban list
 
 *Only owner and mods can add bots in group
 
-
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only owner can use res,setowner,promote,demote and log commands
+.::SUDO USER::. @ASHI_KING_KABOOS
 
 ]],
 	help_text_super =[[
@@ -601,9 +585,7 @@ Returns group logs
 *Only owner can add members to SuperGroup
 (use invite link to invite)
 
-*Only moderators and owner can use block, ban, unban, newlink, link, setphoto, setname, lock, unlock, setrules, setabout and settings commands
-
-*Only owner can use res, setowner, promote, demote, and log commands
+.::SUDO USER::. @ASHI_KING_KABOOS
 
 ]],
   }
