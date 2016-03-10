@@ -208,12 +208,12 @@ return {
           "/plugins @ : reloads plugins" },
           },
   patterns = {
-    "^plugins$",
-    "^plugins? (+) ([%w_%.%-]+)$",
-    "^plugins? (-) ([%w_%.%-]+)$",
-    "^plugins? (+) ([%w_%.%-]+) (gp)",
-    "^plugins? (-) ([%w_%.%-]+) (gp)",
-    "^plugins? (@)$" },
+    "^[#!/]plugins$",
+    "^[#!/]plugins? (+) ([%w_%.%-]+)$",
+    "^[#!/]plugins? (-) ([%w_%.%-]+)$",
+    "^[#!/]plugins? (+) ([%w_%.%-]+) (gp)",
+    "^[#!/]plugins? (-) ([%w_%.%-]+) (gp)",
+    "^[#!/]plugins? (@)$" },
   run = run,
   moderated = true, -- set to moderator mode
   --privileged = true
